@@ -1,4 +1,4 @@
-magic_number = 0
+magic_number = 1
 
 if magic_number == 1:
     print("Congrats! Welcome to git!")
