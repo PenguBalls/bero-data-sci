@@ -3,7 +3,7 @@ import math
 
 
 def isPrime(n):
-    if n == 0 or n == 1:
+    if n < 4:
         return True
 
     for i in range(2, round(math.sqrt(n)) + 1):
@@ -15,6 +15,6 @@ def isPrime(n):
 # I think something is amiss, hmmmm...
 for i in range(0, 20):
     if isPrime(i):
-        print(f"{i} is NOT a prime number")
+        print(f"{i} is a prime number")
     else:
         print(i)
