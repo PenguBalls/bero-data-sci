@@ -1,0 +1,7 @@
+Create a branch named 'git2-branch' and commit a file named git2.py
+
+
+In that git2.py, write an infinite while loop
+
+
+P.S: Doing everything through the terminal is encouraged
